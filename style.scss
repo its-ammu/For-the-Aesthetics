@@ -1,0 +1,203 @@
+body{
+    background-color: #FFF4DF !important;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.navimg{
+    height: 3rem;
+    
+    
+}
+.nav{
+
+    padding: 2rem;
+    display: flex !important;
+    width: 90%;
+    justify-content: space-between;
+    
+    .logo{
+        height: 6rem;
+    }
+    img:hover{
+        transition: 0.2s ease-in;
+        transform: scale(1.08);
+    }
+}
+
+.active{
+    border-bottom: 4px solid #FF725E;
+    padding-bottom: 1rem;
+}
+
+.container{
+    margin-top: 2rem;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    .mock{
+        height: 17rem;
+       
+       
+    }
+    .mockphone{
+        margin-right: 6rem;
+        height: 17rem;
+    }
+    .mocklap{
+        margin-top: 2rem;
+        margin-left: 4rem;
+        height: 13rem;
+    }
+}
+
+.text{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    width: 50%;
+}
+
+
+.wave{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: -1;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.contactimg{
+    width: 7rem;
+    
+}
+
+.contact{
+    position: fixed;
+    left: 34%;
+    top: 28%;
+    transition: 0.3s ease-in;
+}
+
+.contact:hover{
+    transform: rotate(20deg);
+}
+
+.myself{
+    position: fixed;
+    height: 2rem;
+    left: 2%;
+    bottom: 2%;
+}
+.head{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    padding: 0.4rem;
+    border-bottom: 2px solid #FF725E;
+    width: fit-content;
+}
+.walcontainer{
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 47px 0px rgba(0,0,0,0.1);
+    border-radius: 2rem;
+    width: 60%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    padding: 1rem;
+    .img{
+        width: 100%;
+        img{
+            box-shadow: 10px 10px 47px 0px rgba(0,0,0,0.05);
+        }
+        
+    }
+    
+    .phonewal{
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        align-self: start;
+        border-radius: .5rem;
+    }
+    .title{
+        text-align: start;
+        width: 100%;
+        line-height: 1.2rem;
+        span.light{
+            font-size: 0.8rem;
+            font-weight: lighter;
+        }
+        span.lighter{
+            font-size: 0.7rem;
+            font-weight: lighter;
+        }
+        .button{
+            box-shadow: 10px 10px 47px 0px rgba(0,0,0,0.1);
+            transition: 0.3s ease-in;
+            display: flex;
+            .icon{
+                width: 50%;
+            }
+            background-color: #FF725E;
+            border-radius: 2rem;
+            width: 53%;
+            padding: .5rem;
+            color: white;
+            text-align: center;
+            .download{
+                font-size: 100%;
+                align-self: center;
+                margin-right: .5rem;
+            }
+        }
+        .button:hover{
+            transform: scale(1.03);
+        }
+    }
+}
+.lap{
+    width: 50vw;
+    height: 30vh !important;
+    height: 10rem;
+    .img{
+        width: 100% !important;
+    }
+    .phonewal{
+        width: 80% !important;
+        padding: 5rem;
+        margin-left: 0.5rem;
+        padding: 0;
+        align-self: start;
+        border-radius: .5rem;
+        margin-right: 1rem;
+    }
+    .button{
+        width: 33% !important;
+    }
+    
+}
+.col{
+    margin-top: 2rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .row{
+       
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    }
+    .last{
+        width: 80% !important;
+    }
+}
